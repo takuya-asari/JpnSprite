@@ -90,7 +90,7 @@
   <global>
     <section id="general">
       <option id="language" type="std::string" default="&quot;jp&quot;" />
-      <option id="screen_scale" type="int" default="1" />
+      <option id="screen_scale" type="int" default="0" />
       <option id="gpu_acceleration" type="bool" default="true" />
       <option id="visible_timeline" type="bool" default="false" />
       <option id="vertical_timeline" type="bool" default="false" />
