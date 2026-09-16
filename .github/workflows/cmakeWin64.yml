@@ -38,13 +38,9 @@ jobs:
           mingw-w64-x86_64-zlib
           mingw-w64-x86_64-libarchive
 
-    - uses: actions/checkout@v3
-      with:
-        submodules: 'true'
+    - uses: actions/checkout@v4
     - shell: msys2 {0}
       run: |
-        git submodule update --init --recursive
-        git submodule update --remote --recursive || true
         mkdir build
         cd build
         cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release ..
