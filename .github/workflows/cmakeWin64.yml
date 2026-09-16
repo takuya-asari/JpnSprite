@@ -7,7 +7,6 @@ on:
   pull_request:
     branches: [ master ]
 
-
 jobs:
   build:
 
@@ -44,6 +43,8 @@ jobs:
         submodules: 'true'
     - shell: msys2 {0}
       run: |
+        git submodule update --init --recursive
+        git submodule update --remote --recursive || true
         mkdir build
         cd build
         cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release ..
