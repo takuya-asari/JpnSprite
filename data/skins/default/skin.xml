@@ -22,7 +22,7 @@
 
   <colors>
     <color id="text" value="#afafaf" />
-    <color id="disabled" value="#8c8c8c" />
+    <color id="disabled" value="#787878" />
     <color id="face" value="#535353" />
     <color id="hot_face" value="#faf0e6" />
     <color id="selected" value="#FFFFFF" />
@@ -44,7 +44,7 @@
     <color id="check_focus_face" value="#464646" />
     <color id="radio_hot_face" value="#3D3D3D" />
     <color id="radio_focus_face" value="#464646" />
-    <color id="menuitem_normal_text" value="#afafaf" />
+    <color id="menuitem_normal_text" value="#FFFFFF" />
     <color id="menuitem_normal_face" value="#535353" />
     <color id="menuitem_hot_text" value="#afafaf" />
     <color id="menuitem_hot_face" value="#2e2e2e" />
