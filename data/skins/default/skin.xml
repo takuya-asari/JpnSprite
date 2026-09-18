@@ -74,7 +74,7 @@
     <color id="scrollbar_thumb_face" value="#464646" />
     <color id="popup_window_border" value="#000000" />
     <color id="tooltip_text" value="#000000" />
-    <color id="tooltip_face" value="#ffff7d" />
+    <color id="tooltip_face" value="#FFFEB2" />
     <color id="filelist_even_row_text" value="#afafaf" />
     <color id="filelist_even_row_face" value="#3a3a3a" />
     <color id="filelist_odd_row_text" value="#afafaf" />
